@@ -28,10 +28,6 @@ const EditorSetup=()=>{
                     onEditorStateChange={updateTextDesciption}
                 />
             </div>
-            {/* <textarea
-                disabled
-                value={}
-            /> */}
                 <div dangerouslySetInnerHTML={{__html:`${display}`}}></div>
         </div>
     );
